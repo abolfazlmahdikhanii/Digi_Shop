@@ -31,4 +31,4 @@ Project features:
 - 7.نمایش زمان اخرین ویرایش محصول
 - و...
 
-[دمو سات](https://digi-shop-ruby.vercel.app/)
+[دمو سایت](https://digi-shop-ruby.vercel.app/)
