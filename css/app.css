@@ -1227,13 +1227,15 @@ right: 0;
     .section-slide {
 
         padding: 15px 15px;
-        width: 66%;
+        width: 100%;
         display: flex;
         align-items: center;
         direction: ltr;
 
     }
-
+    .section-slide .slides{
+        width: 100%;
+    }
     .slider {
         z-index: 26;
     }
