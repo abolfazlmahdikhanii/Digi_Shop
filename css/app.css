@@ -1164,7 +1164,7 @@ right: 0;
         display: none;
     }
     .ad img{
-        height: unset;
+        height: 270px;
     }
     .swiper-slide:hover .prod-element,
     .prod-element a {
