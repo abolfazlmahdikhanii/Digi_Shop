@@ -1,0 +1,287 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "موبایل",
+        "price": 1280000,
+        "priceOffer":485000 ,
+        "seller": "ارش",
+        "exist": "isset",
+        "category": "super-offer",
+        "url": "../assets/images/p1.png",
+        "created":1631371350808
+      
+
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "لپتاپ",
+        "price": 259000,
+        "priceOffer": 119000,
+        "seller": "ارش",
+        "exist": "isset",
+        "category":"best",
+        "url": "../assets/images/p2.png"
+        ,
+        "created":1631371350808
+        
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "مودم",
+        "price": 73000,
+        "priceOffer": 54990,
+        "seller": "ارش",
+        "exist": "isset",
+        "category": "new",
+        "url": "../assets/images/p3.png"
+        ,
+        "created":1631371350808
+        
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "پاوربانک",
+        "price": 489,
+        "priceOffer": 389,
+        "seller": "ارش",
+        "exist": "isset",
+        "category": "best",
+        "url": "../assets/images/p4.png"
+        ,
+        "created":1631371350808
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": " پاوربانک",
+        "price": 89,
+        "priceOffer": 40,
+        "seller": "ارش",
+        "exist": "isset",
+        "category": "new",
+        "url": "../assets/images/p5.png"
+        ,
+        "created":1631371350808
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "مودم",
+        "price": 89,
+        "priceOffer": 50,
+        "seller": "ارش",
+        "exist": "isset",
+        "category": "sell",
+        "url": "../assets/images/p6.png"
+        ,
+        "created":1631371350808
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "هارد اکسترنال",
+        "price": 89,
+        "priceOffer": 60,
+        "seller": "ارش",
+        "exist": "isset",
+        "category": "super-offer",
+        "url": "../assets/images/p7.png"
+        ,
+        "created":1631371350808
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "موبایل سامسونگ",
+        "price": 89,
+        "priceOffer": 89,
+        "seller": "ارش",
+        "exist": "isset",
+        "category": "sell",
+        "url": "../assets/images/p8.png",
+        "created":1631371350808
+      }
+    },
+    {
+      "sys": { "id": "9" },
+      "fields": {
+        "title": "موبایل ایفون",
+        "price": 8900000,
+        "priceOffer": 7500000,
+        "seller": "کوروش",
+        "exist": "isset",
+        "category": "sell",
+        "url": "../assets/images/p8.png",
+        "created":1631371350808
+      }
+    },
+    {
+      "sys": { "id": "10" },
+      "fields": {
+        "title": "موبایل سامسونگ",
+        "price": 89,
+        "priceOffer": 0,
+        "seller": "ارش",
+        "exist": "isset",
+        "category": "sell",
+        "url": "../assets/images/p8.png",
+        "created":1631371350808
+      }
+    },
+    {
+      "sys": { "id": "11" },
+      "fields": {
+        "title": "موبایل سامسونگ",
+        "price": 890000,
+        "priceOffer": 690000,
+        "seller": "ارش",
+        "exist": "isset",
+        "category": "sell",
+        "url": "../assets/images/p8.png",
+        "created":1631371350808
+      }
+    },
+    {
+      "sys": { "id": "11" },
+      "fields": {
+        "title": "موبایل سامسونگ",
+        "price": 790000,
+        "priceOffer": 0,
+        "seller": "ارش",
+        "exist": "isset",
+        "category": "best",
+        "url": "../assets/images/p8.png",
+        "created":1631371350808
+      }
+    },
+    {
+      "sys": { "id": "12" },
+      "fields": {
+        "title": "موبایل سامسونگ",
+        "price": 250000,
+        "priceOffer": 0,
+        "seller": "ارش",
+        "exist": "isset",
+        "category": "new",
+        "url": "../assets/images/p8.png",
+        "created":1631371350808
+      }
+    },
+    {
+      "sys": { "id": "13" },
+      "fields": {
+        "title": "موبایل سامسونگ",
+        "price": 650000,
+        "priceOffer": 590000,
+        "seller": "ارش",
+        "exist": "isset",
+        "category":"best",
+        "url": "../assets/images/p8.png",
+        "created":1631371350808
+      }
+    },
+    {
+      "sys": { "id": "14" },
+      "fields": {
+        "title": "موبایل سامسونگ",
+        "price": 89,
+        "priceOffer": 0,
+        "seller": "ارش",
+        "exist": "isset",
+        "category": "sell",
+        "url": "../assets/images/p8.png",
+        "created":1631371350808
+      }
+    },
+    {
+      "sys": { "id": "15" },
+      "fields": {
+        "title": "موبایل سامسونگ",
+        "price": 89,
+        "priceOffer": 0,
+        "seller": "ارش",
+        "exist": "isset",
+        "category": "super-offer",
+        "url": "../assets/images/p8.png",
+        "created":1631371350808
+      }
+    },
+    {
+      "sys": { "id": "16" },
+      "fields": {
+        "title": "موبایل سامسونگ",
+        "price": 89,
+        "priceOffer": 0,
+        "seller": "ارش",
+        "exist": "isset",
+        "category": "super-offer",
+        "url": "../assets/images/p8.png",
+        "created":1631371350808
+      }
+    },
+    {
+      "sys": { "id": "17" },
+      "fields": {
+        "title": "موبایل سامسونگ",
+        "price": 89,
+        "priceOffer": 0,
+        "seller": "ارش",
+        "exist": "isset",
+        "category": "sell",
+        "url": "../assets/images/p8.png",
+        "created":1631371350808
+      }
+    },
+    {
+      "sys": { "id": "18" },
+      "fields": {
+        "title": "موبایل سامسونگ",
+        "price": 89,
+        "priceOffer": 0,
+        "seller": "ارش",
+        "exist": "isset",
+        "category": "super-offer",
+        "url": "../assets/images/p8.png",
+        "created":1631371350808
+      }
+    },
+    {
+      "sys": { "id": "19" },
+      "fields": {
+        "title": "موبایل سامسونگ",
+        "price": 89,
+        "priceOffer": 0,
+        "seller": "ارش",
+        "exist": "isset",
+        "category": "sell",
+        "url": "../assets/images/p8.png",
+        "created":1631371350808
+      }
+    },
+    {
+      "sys": { "id": "20" },
+      "fields": {
+        "title": "موبایل سامسونگ",
+        "price": 89000,
+        "priceOffer": 50000,
+        "seller": "ارش",
+        "exist": "isset",
+        "category": "super-offer",
+        "url": "../assets/images/p8.png",
+        "created":1631371350808
+      }
+    }
+  ]
+}

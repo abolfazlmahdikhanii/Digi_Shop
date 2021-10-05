@@ -1,0 +1,187 @@
+.err {
+    position: absolute;
+    top: 5px;
+    width: 97%;
+    height: 50px;
+    right: 5px;
+    left: 0;
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#progress-message {
+    display: none;
+}
+
+.pro-text {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #fff
+}
+
+#inputPassword {
+    position: relative;
+}
+
+#show,
+#show-second {
+    position: absolute;
+    top: 40px;
+    left: 12px;
+}
+
+#showw-login {
+    position: relative;
+    top: -30px;
+    left: 12px;
+    float: left;
+}
+
+#show::after,
+#show-second::after {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+    font-size: 15px;
+    content: '\f06e';
+}
+
+#showw-login::after {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+    font-size: 15px;
+    content: '\f06e';
+}
+
+#show.visible::after,
+#show-second.visible::after,
+#showw-login.visible::after {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+    font-size: 15px;
+    content: '\f070';
+}
+.alert-place{
+    position: fixed;
+    bottom: 30%;
+    right: 5%;
+    z-index: 4444;
+}
+.alert{
+  
+    width: 280px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+justify-content: center;
+border-radius:5px;
+margin-bottom: 10px;
+}
+
+
+  
+  
+  
+.alert.corr{
+    background-color: #66BB6A;
+}
+
+.alert.active{
+    background-color:#EF5350;
+
+}
+.pr{
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+}
+.alert .prog{
+
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  height: 8px;
+  position: absolute;
+  bottom:10px;
+  border-radius: 5px;
+
+}
+
+.alert.corr .prog::-webkit-progress-bar,.alert.corr .prog::-moz-progress-bar{
+    background-color: #b5ebb7;
+  
+   
+}
+.alert.active .prog::-webkit-progress-bar,.alert.active .prog::-moz-progress-bar{
+    background-color: #EF9A9A;
+  
+   
+}
+#form {
+    padding: 20px;
+  
+}
+
+.c-form {
+    position: relative;
+    margin: 30px;
+    display: flex;
+    padding: 10px;
+    border-radius: 3px;
+    background: #fff;
+    box-shadow: 3px 3px 5px #ececec, -3px -3px 5px #f1f1f1;
+}
+
+.input-form {
+    width: 100%;
+}
+
+.img-form {
+    display: none;
+}
+
+@media screen and (min-width:700px) {
+    .input-form {
+        width: 50%;
+    }
+    .img-form {
+        display: block;
+        width: 50%;
+    }
+    .err {
+        position: absolute;
+        top: 80%;
+        bottom: 40px;
+        width: 32%;
+        height: 80px;
+        right: 35px;
+        text-align: center;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+        z-index: 200;
+    }
+    #progress-message {
+        position: absolute;
+        bottom: -11px;
+        right: 0px;
+        left: 1px;
+        display: block;
+    }
+    .alert-place{
+        position: fixed;
+        bottom: 30%;
+        right: 5%;
+        z-index: 4444;
+    }
+}

@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Digi Shop</title>
+    <meta name="description" content="Zarrin data site">
+    <link rel="shortcut icon" type="image/png" href="./assets/images/favlogo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/app.css">
+  
+</head>
+
+<body>
+
+
+
+
+    <div id="backdrop">
+    </div>
+    <!-- header site -->
+    <header>
+        <div class="nav-top">
+            <!-- <img class="image" src="./assets/images/logo.png" alt="img-1" /> -->
+            <div class="logo">
+                <h1 class="image">Digi Shop</h1>
+                <div class="search-input">
+                    <input type="text" placeholder="جستجو در  دیجی شاپ..." readonly />
+                </div>
+            </div>
+            
+            <div class="header-left">
+                <div class="nav">
+                    <div class="item-cartt">
+                        <i class="fas fa-shopping-cart"></i>
+
+                        <div class="notification">0</div>
+                    </div>
+                    <div class="nav-left">
+
+                        <a href="#" class="item-user text-decoration-none">
+                            <i class="far fa-user"></i>
+                        </a>
+                        <div class="extend-profile">
+
+                            <div class="name-profile">
+                                <p class="name-profile-text"></p>
+                            </div>
+                            <div class="profile-show">
+                                <a href="createProduct.html" class="">نمایش پروفایل</a>
+                            </div>
+                            <div class="close-profile">
+                                <p class="close-profile-text">خروج از حساب کاربری</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button id="btn-search" type="button" name="button"><i class="fa fa-search"></i></button>
+                    <button id="btn-menu" type="button" name="button"><i class="fa fa-bars"></i></button>
+                   
+                </div>
+            </div>
+          
+        </div>
+       
+        <nav class="menu">
+            <div class="nav-right">
+
+                <div class="item">
+            
+                        <a class="link" href="./index.html">صفحه اصلی</a>
+                    
+                </div>
+                
+
+               
+                <div class="item">
+                    <a href="#">درباره من</a>
+                </div>
+            </div>
+
+        </nav>
+
+
+
+        <div class="cart-overlay">
+            <div class="cart-shop">
+              <div class="header-cart">
+                <div class="title-cart">
+                    <p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-bag"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+                      </p>
+                      <h2>
+                          
+                          سبد خرید
+                        </h2>
+                </div>
+                  <span class="close-cart">
+                    <i class="fas fa-times"></i>
+                  </span>
+              </div>
+              <div class="cart-content">
+            
+              </div>
+              <div class="empty-cart">
+                <svg xmlns="http://www.w3.org/2000/svg" width="76" height="76" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+                <p>سبد خرید خالی میباشد</p>
+              </div>
+              <div class="cart-footer">
+                <h3>مجموع قیمت: <span class="cart-total">۸۹</span></h3>
+                <a href="#"  class="clear-cart">حذف محصولات</a>
+                <a href="./cartPage.html" class="res-cart ">تسویه حساب</a>
+              </div>
+            </div>
+          </div>
+       
+    </header>
+    <!-- end header -->
+    <main class="main ">
+        <!-- Special Offer -->
+
+
+        <!-- slider -->
+
+        <article class="slider ">
+
+
+            <section class="section-slide ">
+                <div class="slides ">
+                    <div class="item-slide active " id="slide1 ">
+                        <img src="./assets/images/s4.jpg " alt="s4" />
+                    </div>
+                    <div class="item-slide " id="slide2 ">
+                        <img src="./assets/images/s2.jpg " alt="s2" />
+                    </div>
+                    <div class="item-slide " id="slide3 ">
+                        <img src="./assets/images/s6.jpg " alt="s6" />
+                    </div>
+
+
+                </div>
+                <div class="dot-slide ">
+                    <a href="#" class="dot-item active "><i class="fa fa-circle"></i></a>
+                    <a href="#" class="dot-item "><i class="fa fa-circle"></i></a>
+                    <a href="#" class="dot-item "><i class="fa fa-circle"></i></a>
+
+
+                </div>
+                <div class="btn-slide ">
+                    <i class="fas fa-chevron-right " id="prev-slide"></i>
+                    <i class="fas fa-chevron-left " id="next-slide"></i>
+                </div>
+
+
+            </section>
+
+            <!-- slider ad -->
+
+
+            <aside class="slide-ad ">
+
+
+                <div class="slide-ad-item ">
+                    <img style="width:100% " src="assets/images/ad-1.gif " />
+                </div>
+                <div class="slide-ad-item ">
+                    <img style="width:100% " src="assets/images/ad-2.jpg " />
+                </div>
+
+
+            </aside>
+
+        </article>
+
+
+
+        <!-- end slider -->
+        <!--category  -->
+
+        <!-- end category -->
+        <!--  products1 -->
+        <div class="new-product ">
+            <div class="title-product ">
+                <div class="title-product-item ">
+                    <h3 style="font-size: 20px;margin-top: 20px; "> پیشنهاد شگفت انگیز</h3>
+                </div>
+                <div class="title-product-item-border me-lg-4 ">
+                    <p class="item-border "></p>
+                    <p class="circle "><i class="fa fa-circle "></i></p>
+                    <p class="circle "><i class="fa fa-circle "></i></p>
+                    <p class="circle "><i class="fa fa-circle "></i></p>
+
+                </div>
+                <!-- swiper -->
+                <div class="backg ">
+                    <div class="swiper-container mySwiper ">
+                        <div class="swiper-wrapper " id="super-offer">
+                           
+                              
+                        </div>
+                        <div class="swiper-button-next " data-id="swiper-next-super-offer"></div>
+                        <div class="swiper-button-prev " data-id="swiper-prev-super-offer"></div>
+                    </div>
+
+
+                    <!-- end swiper -->
+
+                </div>
+
+
+            </div>
+        </div>
+        <div class="new-product ">
+            <div class="title-product ">
+                <div class="title-product-item ">
+                    <h3 style="font-size: 20px;margin-top: 20px; ">جدید ترین محصولات</h3>
+                </div>
+                <div class="title-product-item-border me-lg-4 ">
+                    <p class="item-border "></p>
+                    <p class="circle "><i class="fa fa-circle "></i></p>
+                    <p class="circle "><i class="fa fa-circle "></i></p>
+                    <p class="circle "><i class="fa fa-circle "></i></p>
+
+                </div>
+                <!-- swiper -->
+                <div class="backg ">
+                    <div class="swiper-container mySwiper ">
+                        <div class="swiper-wrapper " id="new">
+                           
+                              
+                        </div>
+                        <div class="swiper-button-next " data-id="swiper-next-new"></div>
+                        <div class="swiper-button-prev " data-id="swiper-prev-new"></div>
+                    </div>
+
+
+                    <!-- end swiper -->
+
+                </div>
+
+
+            </div>
+        </div>
+        <div class="new-product ">
+            <div class="title-product ">
+                <div class="title-product-item ">
+                    <h3 style="font-size: 20px;margin-top: 20px; ">پرفروش ترین محصولات</h3>
+                </div>
+                <div class="title-product-item-border me-lg-4 ">
+                    <p class="item-border "></p>
+                    <p class="circle "><i class="fa fa-circle "></i></p>
+                    <p class="circle "><i class="fa fa-circle "></i></p>
+                    <p class="circle "><i class="fa fa-circle "></i></p>
+
+                </div>
+                <!-- swiper -->
+                <div class="backg ">
+                    <div class="swiper-container mySwiper ">
+                        <div class="swiper-wrapper " id="sell">
+                           
+                        </div>
+                        <div class="swiper-button-next " data-id="swiper-next-sell"></div>
+                        <div class="swiper-button-prev " data-id="swiper-prev-sell"></div>
+                    </div>
+
+
+                    <!-- end swiper -->
+
+                </div>
+
+
+            </div>
+       
+        </div>
+
+        <!-- service -->
+        <div class="ad ">
+            <img src="assets/images/ad.png" alt="">
+
+        </div>
+        <!-- end service -->
+
+
+        <div class="new-product ">
+            <div class="title-product ">
+                <div class="title-product-item ">
+                    <h3 style="font-size: 20px;margin-top:20px; "> بهترین محصولات</h3>
+                </div>
+                <div class="title-product-item-border me-lg-4 ">
+                    <p class="item-border "></p>
+                    <p class="circle "><i class="fa fa-circle "></i></p>
+                    <p class="circle "><i class="fa fa-circle "></i></p>
+                    <p class="circle "><i class="fa fa-circle "></i></p>
+
+                </div>
+                <!-- swiper -->
+                <div class="backg ">
+                    <div class="swiper-container mySwiper ">
+                        <div class="swiper-wrapper " id="best">
+                        
+                        </div>
+                        <div class="swiper-button-next " data-id="swiper-next-best"></div>
+                        <div class="swiper-button-prev " data-id="swiper-prev-best"></div>
+                    </div>
+
+
+                    <!-- end swiper -->
+
+                </div>
+
+
+            </div>
+        </div>
+        <!-- adv -->
+
+
+
+
+        <section class="modal-cart">
+         
+                   <span class="logo-modal"><svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="none" viewBox="0 0 24 24" stroke="#fff">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                  </svg>
+                </span>
+           <div class="header-modal">
+            <span class="span">
+                <span class="span-t">افزودن به سبد خرید</span>
+               </span>
+           </div>
+          <section class="frm-modal">
+          
+          </section>
+        </section>
+   
+
+        <!-- Back to Top Button -->
+
+
+
+        <div class="back ">
+            <div class="scroll ">
+
+                <i class="fas fa-arrow-up "></i>
+
+            </div>
+        </div>
+    </main>
+    <!-- login -->
+    <section class="search-modal">
+     <div class="header-search">
+        <div class="search-input1">
+            <input type="text" placeholder="جستجو در دیجی شاپ..." id="search-product"/>
+        </div>
+     </div>
+     <div class="main-search">
+      
+     </div>
+     <div class="empty-search">
+        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        <p>چیزی یافت نشد ...</p>
+    </div>
+    </section>
+
+    
+
+    <!-- footer -->
+    <footer class="footer ">
+        <div class="footer-1 ">
+            <div class="footer-box ">
+                <div class="d-flex justify-content-between ">
+                    <p style="font-size: 14px; ">درباره ما</p>
+                    <p class="arrow f-arrow"></p>
+                </div>
+                <ul class="footer-list ">
+                    <li class="footer-item ">داستان شروع</li>
+                    <li class="footer-item ">موقعیت شغلی</li>
+                    <li class="footer-item "> دیجی مال چطور کار میکند؟</li>
+                    <li class="footer-item ">قوانین و شرایط استفاده</li>
+                    <li class="footer-brand ">
+                        <div class="instagram-btn ">
+                            <i class="fab fa-instagram "></i>
+                        </div>
+                        <div class="telegram-btn ">
+                            <i class="fab fa-telegram-plane "></i>
+                        </div>
+                        <div class="linkdin-btn ">
+                            <i class="fab fa-linkedin-in "></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer-2 ">
+            <div class="footer-box ">
+                <div class="d-flex justify-content-between ">
+                    <p style="font-size: 14px; ">پشتیبانی</p>
+                    <p id="arrow " class="f-arrows "></p>
+                </div>
+                <ul class="footer-list-1 ">
+                    <li class="footer-item "> تماس باما</li>
+                    <li class="footer-item "> پشتیبانی انلاین</li>
+                    <li class="footer-item ">پیگیری سفارشات</li>
+                    <li class="footer-item ">گزارش تخلف</li>
+                    <li class="footer-item ">پاسخ به سوالات پرتکرار </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer-3 ">
+            <div class="footer-box ">
+                <div class="d-flex justify-content-between ">
+                    <p style="font-size: 14px; ">اپلیکیشن</p>
+
+                </div>
+                <div class="footer-list-1 ">
+                    <div class="footer-item-1 ">
+                        <div class="news-feed ">
+                            <input type="text " placeholder="برای اطلاع از تخفیف ها ایمیل را وارد کنید " />
+                            <div class="news-btn ">اشتراک</div>
+                        </div>
+
+                    </div>
+                    <div class="footer-item-1 ">
+                        <div class="app d-flex justify-content-between align-items-center ">
+                            <img src="./assets/images/b1.png " alt="b1 " />
+                            <img src="./assets/images/b2.png " alt="b1 " />
+                            <img src="./assets/images/b3.png " alt="b1 " />
+                        </div>
+                    </div>
+                    <!-- img -->
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="footer-middle ">
+            <div class="footer-right ">
+                <div class="footer-btn ">
+                    <span>دانلود اپلیکیشن</span>
+                </div>
+            </div>
+            <div class="footer-left ">
+                <div class="instagram-btn ">
+                    <i class="fab fa-instagram "></i>
+                </div>
+                <div class="telegram-btn ">
+                    <i class="fab fa-telegram-plane "></i>
+                </div>
+                <div class="linkdin-btn ">
+                    <i class="fab fa-linkedin-in "></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- img -->
+    </footer>
+
+
+
+
+
+ 
+    <script src="js/control-panel/function.js" ></script>
+    <script src="js/show-products.js" ></script>
+    <script src="js/menu.js " defer></script>
+    <script src="js/slider-ad.js " defer></script>
+    <script src="js/persian-date.js" defer ></script>
+</body>
+
+</html>

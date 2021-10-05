@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Digi Shop</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./css/header.css" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
+    <link href="./css/app.css" rel="stylesheet">
+  
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/login-style/login.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+</head>
+
+<body>
+
+    <div id="backdrop">
+    </div>
+    <!-- header site -->
+ 
+   
+    <!-- end header -->
+    <main class="c-form">
+        <section class="message">
+            <div class="alert-place"></div>
+        </section>
+        <div class="img-form">
+            <img src="./assets/images/register.png" class="w-100 h-100" />
+        </div>
+        <div class="input-form">
+
+            <form class="row g-3" id="form">
+                <div>
+                    <h2>ثبت نام</h2>
+                    <span style="font-size: 12px;padding: 5px;">برای خرید راحت تر اطلاعات خود را درست وارد نمایید</span>
+                </div>
+                <div class="col-md-6">
+                    <label for="" class="form-label">نام و نام خانوادگی</label>
+                    <input type="text" class="form-control" id="inputName">
+                </div>
+
+                <div class="col-md-6">
+                    <label for="inputTel" class="form-label">موبایل</label>
+                    <input type="tel" class="form-control " id="inputTel">
+                </div>
+                <div class="col-md-6">
+                    <label for="" class="form-label">نام کاربری</label>
+                    <input type="text" class="form-control" id="inputUserName">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputEmail" class="form-label">ایمیل</label>
+                    <input type="email" class="form-control " id="inputEmail" />
+                </div>
+                <div class="col-md-6">
+                    <div class="position-relative">
+                        <label for="inputPassword" class="form-label">رمزعبور</label>
+                    <input type="password" class="form-control" id="inputPassword" />
+                    <span id="show"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="position-relative">
+                        <label for="inputPassword" class="form-label"> تکرار رمزعبور </label>
+                        <input type="password" class="form-control "   id="inputRePassword" />
+                        <span id="show-second" ></span>
+                    </div>
+                </div>
+                <div id="code" class="col-md-4">
+                    <label for=" specificSizeInputGroupUsername " class="form-label "> کد امنیتی</label>
+
+                    <div class="input-group ">
+
+                        <p class="text-center form-control h-75 user-select-none font-monospace" id="Captcha" aria-label="readonly " readonly>
+                            <div  class=" btn btn-danger h-75 rounded-3 me-2" role="button" id="newcode"><i class="fas fa-sync-alt"></i></div>
+                    </div>
+                    <input  class="mt-4 text-center form-control" type="text" id="inputCaptcha">
+
+                </div>
+                <div  class="p-3 d-flex justify-content-end ">
+                    <button class="px-3 btn btn-primary ms-2 me-4" type="submit"  id="sign">ثبت نام</button>
+
+                    <a href="login.html" class="px-3 btn btn-outline-secondary" role="button">ورود</a>
+                </div>
+            </form>
+        </div>
+
+    </main>
+   
+
+
+
+
+    <script src="js/login/login.js " defer></script>
+
+
+</body>
+
+</html>

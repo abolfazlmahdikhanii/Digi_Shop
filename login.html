@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Digi Shop</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="./css/main.css" rel="stylesheet">
+
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/login-style/login.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+
+<body>
+    <div id="backdrop">
+    </div>
+
+    <main class="c-form ">
+        <section class="message">
+            <div class="alert-place"></div>
+        </section>
+        <div class="img-form">
+            <img src="./assets/images/login.jpg"  class="w-100 h-100" />
+        </div>
+        <div class="input-form">
+
+            <form class="col-12" id="form">
+                <div>
+                    <h2>ورود</h2>
+                    <span style="font-size: 12px;padding: 5px;">برای خرید راحت تر اطلاعات خود را درست وارد نمایید</span>
+                </div>
+
+                <div class="pt-3 col-md-6">
+                    <label  class="form-label">نام کاربری</label>
+                    <input type="text" class="form-control" id="userLogin">
+                </div>
+                <div class="pt-3 col-md-6">
+                    <label for="emailLogin" class="form-label">ایمیل</label>
+                    <input type="email" class="form-control " id="emailLogin" />
+                </div>
+                <div class="pt-3 col-md-6">
+                    <label for="passwordLogin" class="form-label">رمزعبور</label>
+                    <input type="password" class="form-control" id="passwordLogin" />
+                    <span id="showw-login"></span>
+                </div>
+
+                <div id="code" class="m-4 col-md-4" >
+                    <label for=" specificSizeInputGroupUsername " class="form-label "> کد امنیتی</label>
+
+                    <div class="input-group ">
+
+                        <p  class="text-center form-control h-75 user-select-none font-monospace" id="Captcha" aria-label="readonly " readonly>
+                            <div  class=" btn btn-danger h-75 rounded-3 me-2" role="button" id="newcode"><i class="fas fa-sync-alt"></i></div>
+                    </div>
+                    <input  class="mt-3 text-center form-control" type="text" id="inputCaptcha">
+
+                </div>
+                <div  class="p-3 d-flex justify-content-end ">
+                    <button  type="submit" class="px-3 btn btn-primary ms-2 me-4" id="login"> ورود</button>
+
+                    <a href="register.html" class="px-3 btn btn-outline-secondary" role="button">ثبت نام</a>
+                </div>
+            </form>
+        </div>
+
+    </main>
+ 
+
+
+    <script src="js/login/login.js " defer></script>
+
+
+
+</body>
+
+</html>
