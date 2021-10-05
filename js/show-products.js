@@ -214,7 +214,7 @@ const append = (arr, ...container) => {
                     idCart.amount++
                     saveCart(cartt)
                     setCartValue(cartt)
-//                     location.reload()
+                    location.reload()
 
                 }
                 checkCart()
