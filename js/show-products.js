@@ -345,7 +345,7 @@ const setCartValue=(cart)=> { // show total and count item cart
     let cartItem = 0;
     let cartTotal = 0;
     cart.map((element) => {
-        let p = element.priceOffer !== '' ? element.priceOffer : element.price;
+        let p = element.priceOffer !==0 ? element.priceOffer : element.price;
         cartItem = cartItem + element.amount;
         cartTotal = cartTotal + p * element.amount;
     });
