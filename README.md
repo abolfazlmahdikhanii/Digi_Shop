@@ -13,7 +13,7 @@ Project features:
 - 7.show last update
 - and ...
 
-[Demo Site](https://shoppin-digi.netlify.app)
+[Demo Site](https://digi-shop-ruby.vercel.app/)
 
 
 ---------------------------------------------------------------------
@@ -31,4 +31,4 @@ Project features:
 - 7.نمایش زمان اخرین ویرایش محصول
 - و...
 
-[دمو سات](https://shoppin-digi.netlify.app)
+[دمو سات](https://digi-shop-ruby.vercel.app/)
